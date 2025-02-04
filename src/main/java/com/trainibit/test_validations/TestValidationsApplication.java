@@ -8,6 +8,7 @@ public class TestValidationsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TestValidationsApplication.class, args);
+		System.out.println("Escuchando mensajes del tópico emails_sent");
 	}
 
 }
